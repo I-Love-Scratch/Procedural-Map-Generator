@@ -1,0 +1,124 @@
+{
+  "Version": "v0.3",
+  "Name": "TestMap_0",
+  "OceonLevel": 0.32,
+  "MountainLevel": 0.84,
+  "Width": 513,
+  "Height": 513,
+  "Seed": 50999,
+  "TileStorageConfig": {
+    "Biome": 8,
+    "Altitude": 8,
+    "Temperature": 8,
+    "Humidity": 8,
+    "WindMagnitude": 8,
+    "WindDirection": 8
+  },
+  "MapScalingFactor": 1.00391006,
+  "MapAspects": "Altitude, Wind, TemperatureHumidity, Biomes, OceanMountain, RiverLake",
+  "Biomes": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[terrainGenerator.Biome, Assembly-CSharp]], mscorlib",
+    "0": {
+      "TileCount": 100808
+    },
+    "1": {
+      "$type": "terrainGenerator.StoneBiome, Assembly-CSharp",
+      "Id": 1,
+      "TileCount": -1100,
+      "BiomeType": "Stone"
+    },
+    "2": {
+      "$type": "terrainGenerator.MountainBiome, Assembly-CSharp",
+      "Id": 2,
+      "BiomeType": "Mountain"
+    },
+    "3": {
+      "$type": "terrainGenerator.SandBiome, Assembly-CSharp",
+      "Id": 3,
+      "TileCount": -22,
+      "BiomeType": "Sand"
+    },
+    "4": {
+      "$type": "terrainGenerator.OceanBiome, Assembly-CSharp",
+      "Id": 4,
+      "BiomeType": "Ocean"
+    },
+    "5": {
+      "$type": "terrainGenerator.LakeBiome, Assembly-CSharp",
+      "SurfaceAltitude": 0.8238691,
+      "Id": 5,
+      "TileCount": 5022,
+      "BiomeType": "Lake"
+    },
+    "6": {
+      "$type": "terrainGenerator.RiverBiome, Assembly-CSharp",
+      "Id": 6,
+      "TileCount": 363,
+      "BiomeType": "River"
+    },
+    "7": {
+      "$type": "terrainGenerator.LakeBiome, Assembly-CSharp",
+      "SurfaceAltitude": 0.5504063,
+      "Id": 7,
+      "TileCount": 460,
+      "BiomeType": "Lake"
+    },
+    "8": {
+      "$type": "terrainGenerator.TundraBiome, Assembly-CSharp",
+      "Id": 8,
+      "TileCount": 15925,
+      "BiomeType": "Tundra"
+    },
+    "9": {
+      "$type": "terrainGenerator.SavannaBiome, Assembly-CSharp",
+      "Id": 9,
+      "TileCount": 18772,
+      "BiomeType": "Savanna"
+    },
+    "10": {
+      "$type": "terrainGenerator.DesertBiome, Assembly-CSharp",
+      "Id": 10,
+      "TileCount": 11701,
+      "BiomeType": "Desert"
+    },
+    "11": {
+      "$type": "terrainGenerator.GrasslandsBiome, Assembly-CSharp",
+      "Id": 11,
+      "TileCount": 14919,
+      "BiomeType": "Grasslands"
+    },
+    "12": {
+      "$type": "terrainGenerator.ForestBiome, Assembly-CSharp",
+      "Id": 12,
+      "TileCount": 11347,
+      "BiomeType": "Forest"
+    },
+    "13": {
+      "$type": "terrainGenerator.SwampBiome, Assembly-CSharp",
+      "Id": 13,
+      "TileCount": 36098,
+      "BiomeType": "Swamp"
+    },
+    "14": {
+      "$type": "terrainGenerator.JungleBiome, Assembly-CSharp",
+      "Id": 14,
+      "TileCount": 30145,
+      "BiomeType": "Jungle"
+    },
+    "15": {
+      "$type": "terrainGenerator.BorealBiome, Assembly-CSharp",
+      "Id": 15,
+      "TileCount": 11433,
+      "BiomeType": "Boreal"
+    },
+    "16": {
+      "$type": "terrainGenerator.ArcticBiome, Assembly-CSharp",
+      "Id": 16,
+      "TileCount": 7298,
+      "BiomeType": "Arctic"
+    }
+  },
+  "Resources": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[terrainGenerator.Resource, Assembly-CSharp]], mscorlib"
+  }
+}

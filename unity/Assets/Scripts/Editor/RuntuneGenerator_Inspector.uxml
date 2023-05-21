@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <uie:PropertyField label="Grid" binding-path="gridObj" />
+    <uie:PropertyField binding-path="generatorBuilder" label="Generator" />
+</ui:UXML>
