@@ -12,9 +12,6 @@ using UnityEngine;
 
 namespace terrainGenerator
 {
-	using Random = System.Random;
-
-
 	/*
 		Main program
 	*/
@@ -23,15 +20,61 @@ namespace terrainGenerator
 			Starting point of the program
 		*/
 		public static void Main(string[] args) {
-			//var seed = new Random((int)(DateTime.Now.Ticks % (long)int.MaxValue)).Next();
-			var seed = 9997;
 
-			TestMaps(seed, 1);
-			//TestBenchmark(seed);
+			var seed = 69_420;
+			Demo(seed);
 
 			Logger.Log("done");
 			Console.ReadLine(); 
 		}
+
+		/*
+			Demo function
+		*/
+		static void Demo(int seed) {
+
+			//make map parameters
+			var par = new GenParams {
+
+				Name = "DemoMap",
+				Width = 257,
+				Height = 257,
+				Seed = seed,
+
+				TileStorageConfig = new Dictionary<TileProperty, int> {
+					{ TileProperty.Biome,           8 },
+					{ TileProperty.Altitude,        8 },
+					{ TileProperty.Temperature,     8 },
+					{ TileProperty.Humidity,        8 },
+					{ TileProperty.WindMagnitude,   8 },
+					{ TileProperty.WindDirection,   8 },
+				},
+			};
+
+			//make map generator
+			var gen = new ChainMapGenerator(new List<IStepGenerator>{
+					new PDSAltitudeGenerator(2, 9),
+					new BalancedOceanMountianGenerator(0.2f, 0.05f, 50),
+					new RiverLakeGenerator(4, 2),
+					new FlowingWindGenerator(),
+					new DiamondSquareTemperatureHumidityGenerator(),
+					new FactorBasedBiomeGenerator(),
+					new CellularAutomataSmoothener(2, 2),
+					new FloodFillResourceGenerator(),
+				}, par);
+
+			//generate map
+			var map = gen.Generate();
+
+			//save to file
+			SaveMap(map);
+		}
+
+
+
+
+
+
 
 		/*
 			Generate a number of maps for testing.
