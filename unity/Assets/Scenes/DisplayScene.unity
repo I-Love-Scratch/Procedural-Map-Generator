@@ -485,6 +485,6 @@ MonoBehaviour:
   imageType: 0
   terrainPrefab: {fileID: 8182208483206749111, guid: 4824c5f54b291d44cb631cbc8b092679, type: 3}
   oceanPlane: {fileID: 2817905745481544214, guid: 7af11f9bd6f16aa44bc02ee135b611bb, type: 3}
-  mapName: TestMap_0
+  mapName: DemoMap
   oceanCutoff: 0.45
   mountainCutoff: 0.75

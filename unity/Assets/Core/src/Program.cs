@@ -21,11 +21,8 @@ namespace terrainGenerator
 		*/
 		public static void Main(string[] args) {
 
-			var seed = 69_420;
+			var seed = 999;
 			Demo(seed);
-
-			Logger.Log("done");
-			Console.ReadLine(); 
 		}
 
 		/*
@@ -46,20 +43,17 @@ namespace terrainGenerator
 					{ TileProperty.Altitude,        8 },
 					{ TileProperty.Temperature,     8 },
 					{ TileProperty.Humidity,        8 },
-					{ TileProperty.WindMagnitude,   8 },
-					{ TileProperty.WindDirection,   8 },
 				},
 			};
 
 			//make map generator
 			var gen = new ChainMapGenerator(new List<IStepGenerator>{
-					new PDSAltitudeGenerator(2, 9),
+					new PDSAltitudeGenerator(1, 6),
 					new BalancedOceanMountianGenerator(0.2f, 0.05f, 50),
-					new RiverLakeGenerator(4, 2),
-					new FlowingWindGenerator(),
-					new DiamondSquareTemperatureHumidityGenerator(),
+					new RiverLakeGenerator(4, 1),
+					new EnvironmentalTemperatureHumidityGenerator(),
 					new FactorBasedBiomeGenerator(),
-					new CellularAutomataSmoothener(2, 2),
+					new CellularAutomataSmoothener(1, 2),
 					new FloodFillResourceGenerator(),
 				}, par);
 
@@ -68,6 +62,8 @@ namespace terrainGenerator
 
 			//save to file
 			SaveMap(map);
+			SaveMap(map.ToFactorMap(), $"DemoMap_Factor");
+			SaveMap(map.ToResourceMap(), $"DemoMap_Resource");
 		}
 
 
