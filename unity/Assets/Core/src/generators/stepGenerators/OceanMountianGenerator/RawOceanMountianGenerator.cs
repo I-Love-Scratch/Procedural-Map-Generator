@@ -78,6 +78,10 @@ namespace terrainGenerator.Generator {
 				}
 			}
 
+			// Update the map scale.
+			state.OceonLevel = waterCutOff;
+			state.MountainLevel = mountianCutOff;
+
 			return grid;
 		}
 

@@ -98,9 +98,6 @@ namespace terrainGenerator.Generator {
 			}
 
 
-			// Normalize the grid
-			inGrid = inGrid.Normalize();
-
 			//clamp for mountain/ocean level
 			for (var x = 0; x < state.Width; x++) for (var y = 0; y < state.Height; y++) {
 				//if mountain, make sure altitude is not too low
