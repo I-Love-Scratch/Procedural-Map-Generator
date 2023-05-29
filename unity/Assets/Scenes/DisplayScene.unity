@@ -139,8 +139,612 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1608799840}
     - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[1000].WindGenerator
+      value: 8662674461111091290
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[1000].BiomeGenerator
+      value: 8662674461111091292
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091220]
+      value: Assembly-CSharp terrainGenerator.Generator.OneDNoiseBiomeGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091229]
+      value: Assembly-CSharp terrainGenerator.Generator.DiamondSquareAltitudeGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091230]
+      value: Assembly-CSharp terrainGenerator.Generator.AltitudeAverageSmoothener
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091231]
+      value: Assembly-CSharp terrainGenerator.Generator.BalancedOceanMountianGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091232]
+      value: Assembly-CSharp terrainGenerator.Generator.RawOceanMountianGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091233]
+      value: Assembly-CSharp terrainGenerator.Generator.ClosestOceanRiverGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091234]
+      value: Assembly-CSharp terrainGenerator.Generator.LocalTilesWindGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091235]
+      value: Assembly-CSharp terrainGenerator.Generator.DiamondSquareTemperatureHumidityGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091236]
+      value: Assembly-CSharp terrainGenerator.Generator.ExpandingBiomeGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091237]
+      value: Assembly-CSharp terrainGenerator.Generator.BiomeBasedAltitudeSmoothener
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091238]
+      value: Assembly-CSharp terrainGenerator.Generator.PrimitiveResourceGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091241]
+      value: Assembly-CSharp terrainGenerator.Generator.PDSAltitudeGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091242]
+      value: Assembly-CSharp terrainGenerator.Generator.ThermalErosionSmoothener
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091243]
+      value: Assembly-CSharp terrainGenerator.Generator.BalancedOceanMountianGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091244]
+      value: Assembly-CSharp terrainGenerator.Generator.RiverLakeGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091245]
+      value: Assembly-CSharp terrainGenerator.Generator.FlowingWindGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091246]
+      value: Assembly-CSharp terrainGenerator.Generator.EnvironmentalTemperatureHumidityGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091247]
+      value: Assembly-CSharp terrainGenerator.Generator.FactorBasedBiomeGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091248]
+      value: Assembly-CSharp terrainGenerator.Generator.CellularAutomataSmoothener
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091249]
+      value: Assembly-CSharp terrainGenerator.Generator.FloodFillResourceGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091250]
+      value: Assembly-CSharp terrainGenerator.Generator.DiamondSquareAltitudeGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091251]
+      value: Assembly-CSharp terrainGenerator.Generator.AltitudeAverageSmoothener
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091252]
+      value: Assembly-CSharp terrainGenerator.Generator.ClosestOceanRiverGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091253]
+      value: Assembly-CSharp terrainGenerator.Generator.LocalTilesWindGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091254]
+      value: Assembly-CSharp terrainGenerator.Generator.DiamondSquareTemperatureHumidityGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091255]
+      value: Assembly-CSharp terrainGenerator.Generator.BiomeBasedAltitudeSmoothener
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091256]
+      value: Assembly-CSharp terrainGenerator.Generator.PrimitiveResourceGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091267]
+      value: Assembly-CSharp terrainGenerator.Generator.PDSAltitudeGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091268]
+      value: Assembly-CSharp terrainGenerator.Generator.VariedAltitudeSmoothener
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091269]
+      value: Assembly-CSharp terrainGenerator.Generator.RawOceanMountianGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091270]
+      value: Assembly-CSharp terrainGenerator.Generator.PerlinTemperatureHumidityGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091271]
+      value: Assembly-CSharp terrainGenerator.Generator.ExpandingBiomeGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091287]
+      value: Assembly-CSharp terrainGenerator.Generator.PDSAltitudeGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091288]
+      value: Assembly-CSharp terrainGenerator.Generator.AltitudeAverageSmoothener
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091289]
+      value: Assembly-CSharp terrainGenerator.Generator.RiverLakeGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091290]
+      value: Assembly-CSharp terrainGenerator.Generator.FlowingWindGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091291]
+      value: Assembly-CSharp terrainGenerator.Generator.DiamondSquareTemperatureHumidityGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091292]
+      value: Assembly-CSharp terrainGenerator.Generator.FactorBasedBiomeGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091293]
+      value: Assembly-CSharp terrainGenerator.Generator.BiomeBasedAltitudeSmoothener
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091294]
+      value: Assembly-CSharp terrainGenerator.Generator.FloodFillResourceGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[1000].AltitudeGenerator
+      value: 8662674461111091287
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[1000].ResourceGenerator
+      value: 8662674461111091294
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[1000].RiverLakeGenerator
+      value: 8662674461111091289
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091234].sight
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091244].sight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091248].Range
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091253].sight
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091270].scale
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091289].sight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
       propertyPath: managedReferences[1000].MapSmoothenerGenerator
+      value: 8662674461111091293
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[1000].OceanMountianGenerator
       value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091241].dsDepth
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091246].useWind
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091267].dsDepth
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091287].dsDepth
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091268].MaxRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091231].precision
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091233].curveSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091233].numCurves
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091243].precision
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091244].loneLakes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091246].chunkSize
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091252].curveSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091252].numCurves
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091289].loneLakes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091229].randomness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091241].randomness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091248].Iterations
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091250].randomness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091267].randomness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091268].Iterations
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091268].Randomness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091287].randomness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091232].WaterCutOff
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091235].hRandomness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091235].tRandomness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091249].escapeBiome
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091254].hRandomness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091254].tRandomness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091269].WaterCutOff
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091291].hRandomness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091291].tRandomness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091294].escapeBiome
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[1000].AltitudeSmoothenerGenerator
+      value: 8662674461111091288
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091220].biomeCutoffA
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091220].biomeCutoffB
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091231].desiredWater
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091243].desiredWater
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091247].biomeCutoffA
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091247].biomeCutoffB
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091247].biomeCutoffC
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091247].biomeCutoffD
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091292].biomeCutoffA
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091292].biomeCutoffB
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091292].biomeCutoffC
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091292].biomeCutoffD
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[1000].TemperatureHumidityGenerator
+      value: 8662674461111091291
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091232].MountianCutOff
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091233].adjustAltitude
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091233].maxRiverLength
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091233].minRiverLength
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091244].numLakesWanted
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091246].dispersionProp
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091252].adjustAltitude
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091252].maxRiverLength
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091252].minRiverLength
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091269].MountianCutOff
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091289].numLakesWanted
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091231].desiredMountian
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091233].numRiversWanted
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091243].desiredMountian
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091244].lakesFromRivers
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091244].numRiversWanted
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091244].riversFromLakes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091244].riversFromStone
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091246].dispersionRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091246].dispersionSteps
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091249].resourceOverlap
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091252].numRiversWanted
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091289].lakesFromRivers
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091289].numRiversWanted
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091289].riversFromLakes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091289].riversFromStone
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091294].resourceOverlap
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[1000].Parameters.<Seed>k__BackingField
+      value: 420
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[1000].Parameters.<Width>k__BackingField
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091246].windDispersionGive
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091246].windDispersionTake
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091268].MinValueToSmoothen
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[1000].Parameters.<Height>k__BackingField
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091234].altitudeSensitivity
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091245].altitudeSensitivity
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091253].altitudeSensitivity
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091290].altitudeSensitivity
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091230].Parameters.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091242].Parameters.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091251].Parameters.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091288].Parameters.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091246].humiditySpreadDistance
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091230].Parameters.Array.data[0].range
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091251].Parameters.Array.data[0].range
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091288].Parameters.Array.data[0].range
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091230].Parameters.Array.data[0].iterations
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091242].Parameters.Array.data[0].iterations
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091251].Parameters.Array.data[0].iterations
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091288].Parameters.Array.data[0].iterations
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091230].Parameters.Array.data[0].includeSelf
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091251].Parameters.Array.data[0].includeSelf
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091288].Parameters.Array.data[0].includeSelf
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203259271118530082, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
+      propertyPath: managedReferences[8662674461111091242].Parameters.Array.data[0].altDiffThreshold
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 8203259271118530083, guid: f79e2e4214838a14aaf9be1c5e873cee, type: 3}
       propertyPath: m_RootOrder
@@ -482,7 +1086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a47572506b770a439902d062ec140f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imageType: 0
+  imageType: 6
   terrainPrefab: {fileID: 8182208483206749111, guid: 4824c5f54b291d44cb631cbc8b092679, type: 3}
   oceanPlane: {fileID: 2817905745481544214, guid: 7af11f9bd6f16aa44bc02ee135b611bb, type: 3}
   mapName: DemoMap
